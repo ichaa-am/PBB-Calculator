@@ -6,6 +6,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnMultiply;
     Button btnDivision;
     Button btnC;
-    Button btnDel;
+    ImageButton btnDel;
     TextView textInput;
     TextView textOutput;
     String text;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         btnMultiply = (Button) findViewById(R.id.btnMultiply);
         btnDivision = (Button) findViewById(R.id.btnDivision);
         btnC = (Button) findViewById(R.id.btnC);
-        btnDel = (Button) findViewById(R.id.btnDel);
+        btnDel = (ImageButton) findViewById(R.id.btnDel);
         textInput = (TextView) findViewById(R.id.textInput);
         textOutput = (TextView) findViewById(R.id.textOutput);
 

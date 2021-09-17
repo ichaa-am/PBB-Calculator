@@ -39,16 +39,26 @@
         android:textColor="@color/font2"
         android:textSize="25sp" />
 
-    <Button
+<!--    <Button-->
+<!--        android:id="@+id/btnDel"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:layout_marginStart="117dp"-->
+<!--        android:layout_marginTop="372dp"-->
+<!--        android:background="@drawable/round_button"-->
+<!--        android:text="Del"-->
+<!--        android:textColor="@color/font2"-->
+<!--        android:textSize="20sp" />-->
+
+    <ImageButton
         android:id="@+id/btnDel"
         android:layout_width="80dp"
         android:layout_height="65dp"
         android:layout_marginStart="117dp"
         android:layout_marginTop="372dp"
-        android:text="Del"
-        android:textSize="20sp"
         android:background="@drawable/round_button"
-        android:textColor="@color/font2"/>
+        android:src="@drawable/del"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnDivision"
